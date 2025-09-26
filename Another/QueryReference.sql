@@ -1,0 +1,7 @@
+SELECT
+    TABLE_NAME,
+    REFERENCED_COLUMN_NAME
+FROM
+    information_schema.KEY_COLUMN_USAGE
+WHERE
+    REFERENCED_TABLE_NAME = 'departments';

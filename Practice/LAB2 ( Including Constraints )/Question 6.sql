@@ -1,0 +1,3 @@
+ALTER TABLE lab_emp
+MODIFY last_name VARCHAR(25)    NOT NULL,
+MODIFY first_name VARCHAR(25)   NOT NULL;
