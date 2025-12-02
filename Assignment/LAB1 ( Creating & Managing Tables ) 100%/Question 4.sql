@@ -1,0 +1,1 @@
+ALTER TABLE title RENAME movie_master ;

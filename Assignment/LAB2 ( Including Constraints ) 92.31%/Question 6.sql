@@ -1,0 +1,2 @@
+ALTER TABLE title
+MODIFY release_date DATE NOT NULL;

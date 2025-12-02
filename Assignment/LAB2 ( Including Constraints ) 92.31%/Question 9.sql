@@ -1,0 +1,6 @@
+SELECT CONSTRAINT_NAME
+FROM information_schema.KEY_COLUMN_USAGE
+WHERE TABLE_NAME = 'title';
+
+ALTER TABLE title
+DROP INDEX title_un;
